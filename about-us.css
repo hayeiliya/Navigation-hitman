@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(imgs/wp10472056-red-and-black-car-wallpapers.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+li{
+    color:white;
+     font-family: sans-serif;
+}
+.menu-bar{
+    background-color:rgb(31, 29, 29);
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.menu-bar ul li:hover{
+    background-color: rgb(16, 11, 11);
+    border-radius: 300px;
+}
+.sub-menu1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background-color:rgb(31, 29, 29);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu1 li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    border-radius: 0;
+    text-align: left ;
+}
+.menu-bar ul li:hover .sub-menu1 ul li :last-child{
+    border-bottom: none;
+}
+
+.main-div{
+    margin-right: auto;
+    margin-left: auto; 
+}
+.main-div{
+    margin-left: 190px;
+    height: 100%;
+}
+.cards{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(62, 58, 58);
+    margin-right: auto;
+    margin-left: auto;    
+    margin-top: 90px;
+    float: left;
+    margin-left: 30px;
+
+}
+.imgs{
+    width: 100%;
+    height: 190px;
+}
+.btns{
+    width: 70%;
+    margin-left: 27px;
+    margin-top: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: gray;
+    border: none;
+    border-radius: 20px;
+}
+.btns:hover{
+    background-color:rgb(48, 41, 41);
+    color: white;
+    transition: 0.3s;
+    
+}
+.btns:hover:active{
+    background-color:rgb(147, 147, 147);
+    color: white;
+}
+

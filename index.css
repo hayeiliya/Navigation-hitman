@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(imgs/wp7301492-red-bugatti-wallpapers.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+li{
+    color:white;
+     font-family: sans-serif;
+}
+.menu-bar{
+    background-color:rgb(31, 29, 29);
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.menu-bar ul li:hover{
+    background-color: rgb(16, 11, 11);
+    border-radius: 300px;
+}
+.sub-menu1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background-color:rgb(31, 29, 29);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu1 li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    border-radius: 0;
+    text-align: left ;
+}
+.menu-bar ul li:hover .sub-menu1 ul li :last-child{
+    border-bottom: none;
+}
+
+
+
+
